@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA5E9C39-1E29-4A99-8590-8D4501BF29EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SISTEM_ABSENSI_SIDIK_JARI.My.MyApplication</StartupObject>
+    <RootNamespace>SISTEM_ABSENSI_SIDIK_JARI</RootNamespace>
+    <AssemblyName>SISTEM ABSENSI SIDIK JARI</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SISTEM ABSENSI SIDIK JARI.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SISTEM ABSENSI SIDIK JARI.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>id_cards.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\IRTO\Sistem Pakar Penyakit ISPA Balita\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\IRTO\Sistem Pakar Penyakit ISPA Balita\bin\Debug\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\IRTO\Sistem Pakar Penyakit ISPA Balita\bin\Debug\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.8.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DPFPDevNET, Version=1.2.0.1, Culture=neutral, PublicKeyToken=696774c42ee28c57, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DPFPDevNET\DPFPDevNET\bin\Release\DPFPDevNET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DPFPEngNET, Version=1.2.0.1, Culture=neutral, PublicKeyToken=7fe76e7adf19964b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DPFPEngNET\DPFPEngNET\bin\Release\DPFPEngNET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DPFPGuiNET, Version=1.2.0.1, Culture=neutral, PublicKeyToken=d4f4a0bd9c559145, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DPFPGuiNET\DPFPGuiNET\bin\Release\DPFPGuiNET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DPFPShrNET, Version=1.2.0.1, Culture=neutral, PublicKeyToken=d902fe275a8d6cf2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DPFPShrNET\DPFPShrNET\bin\Release\DPFPShrNET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DPFPVerNET, Version=1.2.0.1, Culture=neutral, PublicKeyToken=4de0a9c4dcc83984, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DPFPVerNET\DPFPVerNET\bin\Release\DPFPVerNET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\IRTO\Sistem Pakar Penyakit ISPA Balita\bin\Debug\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\IRTO\Sistem Pakar Penyakit ISPA Balita\bin\Debug\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\IRTO\Sistem Pakar Penyakit ISPA Balita\bin\Debug\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="MTGCCombobox">
+      <HintPath>..\..\IRTO\Sistem Pakar Penyakit ISPA Balita\bin\Debug\MTGCCombobox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CaptureForm.Designer.vb">
+      <DependentUpon>CaptureForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\AppData.vb" />
+    <Compile Include="Class\BuildString.vb" />
+    <Compile Include="Class\Dwm.vb" />
+    <Compile Include="Class\modKoneksiDatabase.vb" />
+    <Compile Include="Class\Mod_Kontrol.vb" />
+    <Compile Include="Class\WinApi.vb" />
+    <Compile Include="Controls\CTRL_Dosen.Designer.vb">
+      <DependentUpon>CTRL_Dosen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CTRL_Dosen.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CTRL_Fakultas.Designer.vb">
+      <DependentUpon>CTRL_Fakultas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CTRL_Fakultas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CTRL_Jurusan.Designer.vb">
+      <DependentUpon>CTRL_Jurusan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CTRL_Jurusan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CTRL_Mata_Kuliah.Designer.vb">
+      <DependentUpon>CTRL_Mata_Kuliah.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CTRL_Mata_Kuliah.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CTRL_User.Designer.vb">
+      <DependentUpon>CTRL_User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CTRL_User.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EnrollmentDosen.Designer.vb">
+      <DependentUpon>EnrollmentDosen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EnrollmentDosen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnrollmentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataDosen.Designer.vb">
+      <DependentUpon>FormDataDosen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataDosen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataDosenAll.Designer.vb">
+      <DependentUpon>FormDataDosenAll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataDosenAll.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataMahasiswa.Designer.vb">
+      <DependentUpon>FormDataMahasiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataMahasiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanRekapitulasiAbsensi.Designer.vb">
+      <DependentUpon>FormLaporanRekapitulasiAbsensi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanRekapitulasiAbsensi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanRekapitulasiAbsensiDosen.Designer.vb">
+      <DependentUpon>FormLaporanRekapitulasiAbsensiDosen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanRekapitulasiAbsensiDosen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.vb">
+      <DependentUpon>FormMenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuDosen.Designer.vb">
+      <DependentUpon>FormMenuDosen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuDosen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSplash.Designer.vb">
+      <DependentUpon>FormSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVerifikasi.Designer.vb">
+      <DependentUpon>FormVerifikasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVerifikasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVerifikasiDosen.Designer.vb">
+      <DependentUpon>FormVerifikasiDosen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVerifikasiDosen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Wait.Designer.vb">
+      <DependentUpon>Form_Wait.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Wait.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VerificationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificationFormDosen.Designer.vb">
+      <DependentUpon>VerificationFormDosen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerificationFormDosen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CaptureForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CaptureForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CTRL_Dosen.resx">
+      <DependentUpon>CTRL_Dosen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CTRL_Fakultas.resx">
+      <DependentUpon>CTRL_Fakultas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CTRL_Jurusan.resx">
+      <DependentUpon>CTRL_Jurusan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CTRL_Mata_Kuliah.resx">
+      <DependentUpon>CTRL_Mata_Kuliah.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CTRL_User.resx">
+      <DependentUpon>CTRL_User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnrollmentDosen.resx">
+      <DependentUpon>EnrollmentDosen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataDosen.resx">
+      <DependentUpon>FormDataDosen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataDosenAll.resx">
+      <DependentUpon>FormDataDosenAll.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataMahasiswa.resx">
+      <DependentUpon>FormDataMahasiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanRekapitulasiAbsensi.resx">
+      <DependentUpon>FormLaporanRekapitulasiAbsensi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanRekapitulasiAbsensiDosen.resx">
+      <DependentUpon>FormLaporanRekapitulasiAbsensiDosen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuDosen.resx">
+      <DependentUpon>FormMenuDosen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSplash.resx">
+      <DependentUpon>FormSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVerifikasi.resx">
+      <DependentUpon>FormVerifikasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVerifikasiDosen.resx">
+      <DependentUpon>FormVerifikasiDosen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Wait.resx">
+      <DependentUpon>Form_Wait.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificationForm.resx">
+      <DependentUpon>VerificationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificationFormDosen.resx">
+      <DependentUpon>VerificationFormDosen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_alpha_Exclamation_128x128 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="id_cards.ico" />
+    <None Include="Resources\ico_alpha_Failed_72x721.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Database\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

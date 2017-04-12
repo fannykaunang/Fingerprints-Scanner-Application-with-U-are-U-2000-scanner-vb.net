@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SISTEMABSENSISIDIKJARI
+</name>
+</assembly>
+<members>
+<member name="P:SISTEM_ABSENSI_SIDIK_JARI.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SISTEM_ABSENSI_SIDIK_JARI.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SISTEM_ABSENSI_SIDIK_JARI.My.Resources.Resources.accept_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SISTEM_ABSENSI_SIDIK_JARI.My.Resources.Resources.accept_icon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SISTEM_ABSENSI_SIDIK_JARI.My.Resources.Resources.ico_alpha_Exclamation_128x128___Copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SISTEM_ABSENSI_SIDIK_JARI.My.Resources.Resources.ico_alpha_Failed_72x721">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SISTEM_ABSENSI_SIDIK_JARI.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:SISTEM_ABSENSI_SIDIK_JARI.Dwm.WTNCA_NODRAWCAPTION">
+	<summary>
+ Do Not Draw The Caption (Text)
+ </summary>
+</member><member name="F:SISTEM_ABSENSI_SIDIK_JARI.Dwm.WTNCA_NODRAWICON">
+	<summary>
+ Do Not Draw the Icon
+ </summary>
+</member><member name="F:SISTEM_ABSENSI_SIDIK_JARI.Dwm.WTNCA_NOSYSMENU">
+	<summary>
+ Do Not Show the System Menu
+ </summary>
+</member><member name="F:SISTEM_ABSENSI_SIDIK_JARI.Dwm.WTNCA_NOMIRRORHELP">
+	<summary>
+ Do Not Mirror the Question mark Symbol
+ </summary>
+</member><member name="T:SISTEM_ABSENSI_SIDIK_JARI.Dwm.WTA_OPTIONS">
+	<summary>
+ The Options of What Attributes to Add/Remove
+ </summary>
+</member><member name="T:SISTEM_ABSENSI_SIDIK_JARI.Dwm.WindowThemeAttributeType">
+	<summary>
+ What Type of Attributes? (Only One is Currently Defined)
+ </summary>
+</member><member name="M:SISTEM_ABSENSI_SIDIK_JARI.Dwm.SetWindowThemeAttribute(System.IntPtr,SISTEM_ABSENSI_SIDIK_JARI.Dwm.WindowThemeAttributeType,SISTEM_ABSENSI_SIDIK_JARI.Dwm.WTA_OPTIONS@,System.UInt32)">
+	<summary>
+ Set The Window's Theme Attributes
+ </summary>
+	<param name="hWnd">The Handle to the Window</param>
+	<param name="wtype">What Type of Attributes</param>
+	<param name="attributes">The Attributes to Add/Remove</param>
+	<param name="size">The Size of the Attributes Struct</param>
+	<returns>If The Call Was Successful or Not</returns>
+</member><member name="M:SISTEM_ABSENSI_SIDIK_JARI.FormLogin.HiWord(System.Int32)">
+	<summary>
+ Equivalent to the HiWord C Macro
+ </summary>
+	<param name="dwValue"></param>
+	<returns></returns>
+</member>
+</members>
+</doc>

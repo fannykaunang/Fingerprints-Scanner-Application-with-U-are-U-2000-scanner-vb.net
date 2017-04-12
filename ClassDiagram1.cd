@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.CaptureForm" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCEgoDIJuCAABIAKwrChAWACRsHz5AAFVQYSAAIIeQE=</HashCode>
+      <FileName>CaptureForm.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.AppData" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAUAIAAAAAABAAAgAAAAEAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Class\AppData.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.BuildString" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAICAABAAAAQQABQAAAAAAAAAAAAAAIAAAgAACA=</HashCode>
+      <FileName>Class\BuildString.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.Dwm" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JgkgCQCACAAGQASAADAKIAANCAgAAAABAggEAAYAAKQ=</HashCode>
+      <FileName>Class\Dwm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.WinApi" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\WinApi.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.CTRL_Dosen" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAMhgSiAGmQBACEIoIm0AI4KIBjtKgSsLUQACv4LYQA=</HashCode>
+      <FileName>Controls\CTRL_Dosen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.CTRL_Fakultas" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAMhAQgAGmQAACAIoAm0AIIKIAhkagSsLUQACgAIIQg=</HashCode>
+      <FileName>Controls\CTRL_Fakultas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.CTRL_Jurusan" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jAMhAQgAGmQAACAIoAm0AIIKIAhkKgSsLUQACgAIIQg=</HashCode>
+      <FileName>Controls\CTRL_Jurusan.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.CTRL_Mata_Kuliah" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>nAOlgQoCGmRAQCFIoAm0CJIKIDjvagysLcQACgYJIwA=</HashCode>
+      <FileName>Controls\CTRL_Mata_Kuliah.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.CTRL_User" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DIMhAQgAGmQACCAIoAm0QAIKIAjmKgS8L0QACg4IIQg=</HashCode>
+      <FileName>Controls\CTRL_User.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.EnrollmentDosen" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAFAkAGAAAAAAAgCAAAACLCAQAAAAApEKAAAAAAI=</HashCode>
+      <FileName>EnrollmentDosen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.EnrollmentForm" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAYAAEAEAgAAAAAgIAAAAAGgAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>EnrollmentForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.Form_Wait" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAgCAAAAAAAACAAAACgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Form_Wait.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormDataDosen" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gSFwgCCoGCAAAKAK4jCMIKIKRojPjgQkTEYSAgYIOQA=</HashCode>
+      <FileName>FormDataDosen.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormDataDosenAll" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="SISTEM_ABSENSI_SIDIK_JARI.FormDataDosenAll.AsiggnDTCallback" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FormDataDosenAll.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CIMBAABAEGAAAEAIIACgAAACIAAgIIQJKQAQAAABAAA=</HashCode>
+      <FileName>FormDataDosenAll.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormDataMahasiswa" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIMBAABAEGAAAEAIIACgAAACIAAgIIQJKQAQAAABAAA=</HashCode>
+      <FileName>FormDataMahasiswa.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormLaporanRekapitulasiAbsensi" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIEAAAJAAGAAAEAIAACAAAQCIAhgAAQBCIQAAEIBAAA=</HashCode>
+      <FileName>FormLaporanRekapitulasiAbsensi.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormLogin" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQjASZAAgCAmCBABiDCEAAACIHBYBAAAQAAiQEAQACA=</HashCode>
+      <FileName>FormLogin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormMain" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lSEIADQJkWSBAJTAgCqAgWgCAQpAIAgPRkYCQAGOaX4=</HashCode>
+      <FileName>FormMain.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormMenu" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hdCAY5ZAkGDxDQAJAAaSQQiykgMAQEIJgQAuAAERQGI=</HashCode>
+      <FileName>FormMenu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormMenuDosen" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hUDIIpIgEGBAAAAJAAqSQQiCIAQAAEAACQIuAJARQBI=</HashCode>
+      <FileName>FormMenuDosen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormSplash" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIkAAAAAEiIIAAAIgACCAEAGAAjgCAABANATGgABIAg=</HashCode>
+      <FileName>FormSplash.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormVerifikasi" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CYIAIAAAECBAAAAIgACAQACCEAAgAAABAEAQAgAAAAA=</HashCode>
+      <FileName>FormVerifikasi.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.FormVerifikasiDosen" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIIAJAQAECBAAAAIgAiAAAACABAgAAABAEAQAhAAAAA=</HashCode>
+      <FileName>FormVerifikasiDosen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.VerificationForm" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAEAAAQAIAgAAAAASAAAAAAAAAAACAAIAAAg=</HashCode>
+      <FileName>VerificationForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.VerificationFormDosen" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAGAAAQAIAgCAAAACBCARAAAAApGKAAIAAAA=</HashCode>
+      <FileName>VerificationFormDosen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.My.MyApplication" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SISTEM_ABSENSI_SIDIK_JARI.My.MySettings" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABAAIAAABAABAAAABAAAAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="SISTEM_ABSENSI_SIDIK_JARI.FunctionCall" Collapsed="true">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormMenu.vb</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Module Name="SISTEM_ABSENSI_SIDIK_JARI.Mod_Kontrol" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAIAAAAIAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Mod_Kontrol.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="SISTEM_ABSENSI_SIDIK_JARI.modKoneksiDatabase" Collapsed="true">
+    <Position X="7" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABAAAAQAAAAiAFAAAAQAAAAAAAAAABAAACA=</HashCode>
+      <FileName>Class\modKoneksiDatabase.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="SISTEM_ABSENSI_SIDIK_JARI.My.MySettingsProperty" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="SISTEM_ABSENSI_SIDIK_JARI.My.Resources.Resources" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAABEAAAAQAAAAAAAAAQAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
